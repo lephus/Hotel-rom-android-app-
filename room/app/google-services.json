@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "403092164317",
+    "firebase_url": "https://motel-room-a3af1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "motel-room-a3af1",
+    "storage_bucket": "motel-room-a3af1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403092164317:android:4bb70b5bfc811eb7f7d534",
+        "android_client_info": {
+          "package_name": "com.example.designapptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403092164317-3vlumnclu9k70jmcd3klg8tsuirejd7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1rmDtxQPn2Khwpt_2Ilo41807mhulST0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403092164317-3vlumnclu9k70jmcd3klg8tsuirejd7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403092164317:android:37529c4fe1d02a2ef7d534",
+        "android_client_info": {
+          "package_name": "com.example.motel_room"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403092164317-3vlumnclu9k70jmcd3klg8tsuirejd7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1rmDtxQPn2Khwpt_2Ilo41807mhulST0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403092164317-3vlumnclu9k70jmcd3klg8tsuirejd7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403092164317:android:fa8eeee3fe1fe4acf7d534",
+        "android_client_info": {
+          "package_name": "com.lehuuphu.motel_room"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403092164317-3vlumnclu9k70jmcd3klg8tsuirejd7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1rmDtxQPn2Khwpt_2Ilo41807mhulST0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403092164317-3vlumnclu9k70jmcd3klg8tsuirejd7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

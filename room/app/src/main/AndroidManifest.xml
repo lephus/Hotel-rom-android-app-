@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.motel_room">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.motel_room.view.room.RequestBookActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.motel_room.view.room.ListBookRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.motel_room.view.popup.PopUpActivity"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity
+            android:name="com.example.motel_room.view.popup.PopUpCommentActivity"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity android:name="com.example.motel_room.view.main.MainMenuActivity" />
+
+        <meta-data
+            android:name="INTENT_NAME"
+            android:value="com.example.designapptest" />
+
+        <activity
+            android:name="com.example.motel_room.view.searchandmap.LocationSearchActivity"
+            android:noHistory="true" />
+        <activity android:name="com.example.motel_room.view.searchandmap.SearchViewActivity" />
+        <activity android:name="com.example.motel_room.view.room.LoadImageScreenActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" /> <!-- End thêm meta data cho google map -->
+        <activity android:name="com.example.motel_room.view.commentandrate.CommentAndRateMainActivity" />
+        <activity android:name="com.example.motel_room.view.room.RoomManageActivity" />
+        <activity android:name="com.example.motel_room.view.room.DetailRoomActivity" />
+        <activity android:name="com.example.motel_room.view.room.FavoriteRoomsActivity" />
+        <activity android:name="com.example.motel_room.view.room.VerifiedRoomsViewActivity" />
+        <activity android:name="com.example.motel_room.view.room.PostRoomActivity" />
+        <activity android:name="com.example.motel_room.view.postroom.PostRoomAdapterUpdateActivity" />
+        <activity
+            android:name="com.example.motel_room.view.login.LoginActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme1.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.motel_room.view.register.RegisterActivity"
+            android:theme="@style/AppTheme1.NoActionBar" />
+        <activity android:name="com.example.motel_room.view.room.FindRoomAddActivity" />
+        <activity android:name="com.example.motel_room.view.room.FindRoomDetailActivity" />
+        <activity android:name="com.example.motel_room.view.room.FindRoomFilterActivity" />
+        <activity android:name="com.example.motel_room.view.room.FindRoomMineActivity" />
+        <activity android:name="com.example.motel_room.view.account.PersonalActivity" />
+        <activity android:name="com.example.motel_room.view.account.ResetPasswordByEmailActivity" />
+        <activity android:name="com.example.motel_room.view.admin.AdminViewActivity" />
+        <activity android:name="com.example.motel_room.view.admin.AdminRoomsActivity" />
+        <activity android:name="com.example.motel_room.view.admin.AdminHostsActivity" />
+        <activity android:name="com.example.motel_room.view.admin.AdminHostRoomsActivity" />
+        <activity android:name="com.example.motel_room.view.admin.AdminRoomsWaitForApprovalActivity" />
+        <activity android:name="com.example.motel_room.view.admin.AdminReportRoomActivity" />
+        <activity android:name="com.example.motel_room.view.admin.AdminReportRoomDetailActivity" />
+        <activity android:name="com.example.motel_room.view.main.FindRoomMine" />
+        <activity android:name="com.example.motel_room.view.room.FindRoomAdd" />
+        <activity android:name="com.example.motel_room.view.room.FindRoomFilter" />
+    </application>
+
+</manifest>
