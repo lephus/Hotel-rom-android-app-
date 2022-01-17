@@ -105,14 +105,16 @@ public class PostRoomStep1Fragment extends Fragment implements AdapterView.OnIte
     private void loadDataForSpinner() {
 
         //Đặt thuộc tính cho spinner CityPushRoom
-        String[] CityList = {"Hồ Chí Minh"};
+        String[] CityList = {"Hà Nội","Đà Nẵng", "Hồ Chí Minh"};
         ArrayAdapter<String> adapterSpnCityPushRoom = new ArrayAdapter<>(getContext(), android.R.layout.simple_spinner_item, CityList);
         adapterSpnCityPushRoom.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spnCityPushRoom.setAdapter(adapterSpnCityPushRoom);
         //End Đặt thuộc tính cho spinner CityPushRoom
 
         //Đặt thuộc tính cho spinner spnDistrictPushRoom
-        String[] DistricList = {"Quận 1", "Quận 2", "Quận 3", "Quận 4", "Quận 5",
+        String[] DistricList = {"Quận Thanh Khê","Quận Liên Chiểu","Quận Cẩm lệ",
+                "Hòa Khánh", "Hòa Vang", "Hòa Nhơn",
+                "Quận 1", "Quận 2", "Quận 3", "Quận 4", "Quận 5",
                 "Quận 6", "Quận 7", "Quận 8", "Quận 9", "Quận 10", "Quận 11", "Quận 12",
                 "Quận Thủ Đức", "Quận Gò Vấp", "Quận Bình Thạnh", "Quận Tân Bình",
                 "Quận Tân Phú", "Quận Phú Nhuận", "Quận Bình Tân"};
@@ -333,7 +335,7 @@ public class PostRoomStep1Fragment extends Fragment implements AdapterView.OnIte
             case "Quận Bình Tân":
                 return List_W_BinhTan;
         }
-        return List_W_BinhTan;
+        return List_W_Q_9;
     }
 
 
